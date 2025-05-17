@@ -24,6 +24,7 @@ A web-based Expense Tracker built using **PHP**, **AJAX**, **MySQL**, and **Char
 ---
 
 ## 🗃️ Database Schema
+***use your db name and password in dp.php file***
 
 ```sql
 CREATE DATABASE expense_tracker;
@@ -38,5 +39,5 @@ CREATE TABLE transactions (
     date DATE NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-****use your db name and password in dp.php file*****
+
 
