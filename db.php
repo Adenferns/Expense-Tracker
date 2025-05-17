@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $user = 'root';
-$pass = 'yourpassword';
-$dbname = 'expense_tracker';
+$pass = '';
+$dbname = '';
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
